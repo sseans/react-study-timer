@@ -21,8 +21,18 @@
   border-radius: 20px;
   width: 65%;
   height: 100%;
+  background: rgb(255, 0, 84);
+  background: rgb(255, 0, 84);
+  background: rgb(255, 0, 84);
+  background: rgb(255, 0, 84);
+  background: rgb(255, 0, 84);
+  background: linear-gradient(
+    281deg,
+    rgba(255, 0, 84, 1) 0%,
+    rgba(216, 104, 106, 1) 37%,
+    rgba(239, 215, 150, 1) 100%
+  );
 }
-
 .timerdisplay__text {
   margin-top: -25px;
   display: flex;
