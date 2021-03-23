@@ -29,6 +29,7 @@
   display: flex;
   font-size: 1.1em;
   color: #b3dbd8;
+  cursor: pointer;
 }
 
 .lowernav__menu svg {

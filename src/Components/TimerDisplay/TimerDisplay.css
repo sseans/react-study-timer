@@ -14,6 +14,8 @@
   border: #040f16 2.5px solid;
   background-color: #7ea2a1;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .timerdisplay__load {
@@ -21,16 +23,14 @@
   border-radius: 20px;
   width: 65%;
   height: 100%;
-  background: rgb(255, 0, 84);
-  background: rgb(255, 0, 84);
-  background: rgb(255, 0, 84);
-  background: rgb(255, 0, 84);
-  background: rgb(255, 0, 84);
+  margin-bottom: -0.5px;
   background: linear-gradient(
     281deg,
-    rgba(255, 0, 84, 1) 0%,
-    rgba(216, 104, 106, 1) 37%,
-    rgba(239, 215, 150, 1) 100%
+    rgb(142, 222, 188),
+    rgb(131, 200, 179),
+    rgb(119, 178, 170),
+    rgb(107, 156, 160),
+    rgb(95, 135, 151)
   );
 }
 .timerdisplay__text {

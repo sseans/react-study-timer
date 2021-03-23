@@ -1,0 +1,21 @@
+.hero {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  border: purple 1px solid;
+}
+
+.hero__wrapper {
+  max-width: 1300px;
+  border: yellow 1px solid;
+}
+
+.hero__heading {
+  border: orange 1px solid;
+}
+
+.hero__text {
+  color: #dce9e1;
+  border: lime 1px solid;
+}
