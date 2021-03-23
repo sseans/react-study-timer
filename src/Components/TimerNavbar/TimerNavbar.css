@@ -6,18 +6,22 @@
   border-radius: 25px;
   background-color: #b3dbd8;
   color: #040f16;
+  display: flex;
+  justify-content: center;
 }
 
 .timernav__wrapper {
   padding-top: 20px;
   width: 100%;
   max-width: 1300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .timernav__upperbar {
   height: 80px;
   max-width: 1300px;
-  padding: 0 17.5px;
+  padding: 0 25px 0 17.15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,8 +29,15 @@
 
 .timernav__title {
   width: fit-content;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-family: "Bebas Neue", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timernav__title svg {
+  padding-bottom: 4px;
 }
 
 .timernav__title span {
@@ -34,5 +45,10 @@
 }
 
 .timernav__menubutton {
-  font-size: 1.6rem;
+  font-size: 2.1rem;
+}
+
+.timernav__lowerbar {
+  display: flex;
+  justify-content: center;
 }

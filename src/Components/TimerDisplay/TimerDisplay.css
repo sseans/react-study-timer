@@ -1,0 +1,36 @@
+.timerdisplay {
+  width: 92.5%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.timerdisplay__bar {
+  width: 98%;
+  height: 15px;
+  border-radius: 20px;
+  border: #040f16 2.5px solid;
+  background-color: #7ea2a1;
+  overflow: hidden;
+}
+
+.timerdisplay__load {
+  background-color: #fcd3de;
+  border-radius: 20px;
+  width: 65%;
+  height: 100%;
+}
+
+.timerdisplay__text {
+  margin-top: -25px;
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timerdisplay__text svg {
+  font-size: 1.5rem;
+}
