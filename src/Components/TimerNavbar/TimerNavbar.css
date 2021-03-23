@@ -1,0 +1,38 @@
+.timernav {
+  position: relative;
+  top: -20px;
+  height: 220px;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #b3dbd8;
+  color: #040f16;
+}
+
+.timernav__wrapper {
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.timernav__upperbar {
+  height: 80px;
+  max-width: 1300px;
+  padding: 0 17.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timernav__title {
+  width: fit-content;
+  font-size: 2.5rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+.timernav__title span {
+  color: #121d23;
+}
+
+.timernav__menubutton {
+  font-size: 1.6rem;
+}

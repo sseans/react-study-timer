@@ -1,0 +1,9 @@
+.lowernav {
+  height: 105px;
+  width: 100%;
+  background-color: #121d23;
+  border-radius: 20px;
+  margin-top: -60px;
+  position: relative;
+  z-index: -1;
+}
