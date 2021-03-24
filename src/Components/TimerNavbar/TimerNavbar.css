@@ -29,15 +29,17 @@
 
 .timernav__title {
   width: fit-content;
-  font-size: 2.3rem;
-  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .timernav__title svg {
-  padding-bottom: 4px;
+  padding-top: 2px;
+  padding-bottom: -5px;
 }
 
 .timernav__title span {
