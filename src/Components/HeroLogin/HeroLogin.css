@@ -99,4 +99,8 @@
   .hero__wrapper {
     flex-direction: column;
   }
+
+  .hero__svg {
+    display: none;
+  }
 }
