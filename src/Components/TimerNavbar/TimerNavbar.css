@@ -30,16 +30,19 @@
 .timernav__title {
   width: fit-content;
   font-size: 1.5rem;
-  font-weight: bold;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .timernav__title svg {
   padding-top: 2px;
   padding-bottom: -5px;
+  margin-right: -2px;
+  color: #121d23;
+  font-size: 1.45rem;
 }
 
 .timernav__title span {
